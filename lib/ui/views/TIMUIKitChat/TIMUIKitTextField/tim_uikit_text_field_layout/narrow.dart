@@ -480,6 +480,7 @@ class _TIMUIKitTextFieldLayoutNarrowState extends TIMUIKitState<TIMUIKitTextFiel
                                         });
                                       },
                                       keyboardType: TextInputType.multiline,
+                                      style: TextStyle(color: Colors.black),
                                       textInputAction: PlatformUtils().isAndroid ? TextInputAction.newline : TextInputAction.send,
                                       onEditingComplete: () {
                                         widget.onSubmitted();
